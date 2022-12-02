@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>게시글</title>
+  </head>
+  <body>
+    <nav>
+        <a href="./board.html">게시판</a>
+        <a href="./join.html">회원가입</a>
+        <a href="./sign_in.html">로그인</a>
+        <a href="./read_post.html">게시글</a>
+        <a href="./write_post.html">게시글 작성</a>
+        <a href="./update_post.html">게시글 수정</a>
+    </nav>
+    <div
+      style="
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+      "
+    >
+      <div style="width: 50vw">
+        <div
+          style="
+            display: flex;
+            justify-content: space-between;
+            background-color: cornsilk;
+          "
+        >
+          <div>
+            <div>작성자</div>
+            <div>작성일(yyyy.mm.dd hh:mm)</div>
+          </div>
+          <div title="여기 속한 버튼은 게시글 작성자 인 경우만 노출">
+            <button onclick="alert('클릭 시 update_post 페이지로 이동')">
+              수정
+            </button>
+            <button onclick="alert('클릭 시 삭제 확인 창을 보여준다')">
+              삭제
+            </button>
+          </div>
+        </div>
+        <h2>title</h2>
+        <hr />
+        <div>
+          John D. Carmack II. 이드 소프트웨어의 공동 창업자이며 기술 감독이자
+          게임 프로듀서 및 프로그래머. 1970년 8월 20일 미국 캔자스 출생. 현대
+          1인칭 슈팅 게임(FPS) 장르의 원조격인 울펜슈타인 3D, 흥행돌풍을
+          일으키며 FPS 장르를 대중화하는데 일조한 둠, 퀘이크의 핵심 프로그래머로
+          그가 개발한 빠른 데스매치 타입의 FPS에 최적화된 3D 렌더링과 네트워크는
+          대단히 혁신적이었다. 존 카맥은 당대 게임 개발자로서는 이례적으로
+          온라인에서는 .plan[1]과 /.[2]으로 오프라인에서는 랜 파티에서 시작한
+          퀘이크콘에서의 기조 연설이나 언론 인터뷰로 매우 활발한 소통 활동을
+          했다.[3] 그래서 존 카맥은 한동안 PC 게임업계에서 스타 개발자이자 3D
+          게임 그래픽 프로그래밍 기술의 구루(Guru)로 추앙받기도 했다. 1998년에
+          시작해 매년 1명씩 선정되는 AIAS(Academy of Interactive Arts and
+          Sciences)에서 2001년에 선정되었다. 시간이 지나서도 관리직으로 넘어가지
+          않고 여전히 소규모 팀을 유지하면서 현장에서 실무를 담당하였다. 현재는
+          이드 소프트웨어를 퇴사하고 오큘러스 VR에 참여하고 있다.
+        </div>
+        <hr />
+        <div>
+          <a href="#">saving_file.png</a>
+        </div>
+        <hr />
+        <div>
+          <button>목록</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

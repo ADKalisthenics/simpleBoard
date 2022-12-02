@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+        <a href="./board.html">게시판</a>
+        <a href="./join.html">회원가입</a>
+        <a href="./sign_in.html">로그인</a>
+        <a href="./read_post.html">게시글</a>
+        <a href="./write_post.html">게시글 작성</a>
+        <a href="./update_post.html">게시글 수정</a>
+    </nav>
+    <div
+      style="
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+      "
+    >
+      <div style="width: 50vw">
+        
+        <h2>제목<input type="text" value="" /></h2>
+        <hr />
+        <div>
+          <textarea cols="100" rows="40">
+
+                </textarea
+          >
+        </div>
+        <hr />
+        <div>
+          <input type="file">
+        </div>
+        <hr />
+        <div>
+          <button onclick="alert('클릭 시 저장')">저장</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
