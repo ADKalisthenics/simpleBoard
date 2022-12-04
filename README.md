@@ -2,15 +2,14 @@
 A very simple board project which go back to the basic
 
 ## 개발 환경
-> 협의 후 결정 필요
-> 아래는 후보
+> CSR 환경으로 프론트와 백서버 분리
 - BackEnd
-    - NODEJS(Express, NestJS), Spring Boot
+    - Spring Boot
 - FrontEnd
-    - library : Vanilla JS, ReactJS, VueJS
-    - template engine : 사용 안함, JSP, Thymeleaf
+    - VueJS
 - DBMS
-- 개발툴 맞출 필요 있는지 협의 필요
+  - MYSQL(Docker 사용)
+- TOOL : 각자 편한 것 사용
 
 ## 설계
 > 게시판, 게시글 조회/수정/삭제, 파일 업로드, 회원가입, 로그인 기능만 구현
@@ -25,3 +24,9 @@ A very simple board project which go back to the basic
 - ERD
     - user(사용자), post(게시글), file_info(파일정보) 3개의 table 설계
   ![ERD 이미지](./docs/imgs/ERD.drawio.png)
+
+### RULES
+- Naming Rule : camelCase 사용
+- return message [LINK]
+- File 저장 규칙 [LINK]
+- API 작성 규칙 : RESTFUL [LINK](https://learn.microsoft.com/ko-kr/azure/architecture/best-practices/api-design)
